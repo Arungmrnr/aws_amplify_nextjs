@@ -10,7 +10,7 @@ frontend:
     build:
       commands:
         - pnpm install --frozen-lockfile
-        - depsLockFilePath: pnpm-lock.yaml 
+        - "depsLockFilePath: pnpm-lock.yaml"
         - pnpm run build
   artifacts:
     baseDirectory: .next
